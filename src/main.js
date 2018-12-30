@@ -9,13 +9,15 @@ Vue.use(VueRouter)
 import VueResource from 'vue-resource'
 // 安装vue-resource
 Vue.use(VueResource)
-
+//设置请求的根路径
+Vue.http.options.root = 'http://vue.studyit.io';
 //导入MUI的样式
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
 //按需导入Mint-UI组件
-import { Header, Swipe, SwipeItem } from 'mint-ui'
+import {Header, Swipe, SwipeItem} from 'mint-ui'
+
 Vue.component(Header.name, Header);
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);

@@ -16,3 +16,7 @@ linkActiveClass: 'mui-active'
 2.s使用vue-resource 的this.$http.get获取数据
 3.获取到的数据，要保存到data身上
 4.使用v-for循环渲染每个item项
+
+#改造新闻资讯路由链接
+
+#新闻资讯页面制作
